@@ -22,6 +22,11 @@
     border: var(--border);
     border-radius: rem(100);
 
+    @include hover {
+      color: var(--color-accent);
+      border-color: var(--color-accent);
+    }
+
     @include laptop {
       column-gap: rem(2);
       font-size: rem(14);
