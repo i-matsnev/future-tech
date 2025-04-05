@@ -8,7 +8,7 @@
 
   &.is-expanded {
     &::before,
-    &.expandable-content__button {
+    .expandable-content__button {
       @include hide;
     }
   }

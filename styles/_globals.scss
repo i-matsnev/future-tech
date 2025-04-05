@@ -26,20 +26,21 @@ h2, .h2,
 h3, .h3,
 h4, .h4,
 h5, .h5,
-h6, .h6 {
+h6, .h6,
+.h7 {
   color: var(--color-light);
 }
 
 h1, .h1,
 h2, .h2,
-h3, .h3 {
+h3, .h3{
   font-family: var(--font-family-accent);
   font-weight: 500;
 }
 
 h4, .h4,
 h5, .h5,
-h6, .h6 {
+h6, .h6{
   font-weight: 600;
 }
 
@@ -69,6 +70,10 @@ h5, .h5 {
 
 h6, .h6 {
   @include fluid-text(20, 16);
+}
+
+.h7 {
+  @include fluid-text(18, 14);
 }
 
 a,
