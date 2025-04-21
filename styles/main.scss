@@ -42,7 +42,6 @@
 @use 'blocks/table-of-contents';
 @use 'blocks/blog-details';
 @use 'blocks/report-card';
-
 @use 'blocks/contacts-card';
 @use 'blocks/field';
 @use 'blocks/select';
@@ -51,9 +50,3 @@
 @use 'blocks/accordion';
 @use 'blocks/accordion-group';
 @use 'blocks/contacts';
-
-/*.header,
-main > *:not(:last-child),
-.footer {
-  display: none !important;
-}*/
